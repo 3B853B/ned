@@ -1,6 +1,6 @@
 # Ned
 
-Ned is where I store my application config scripts on newly created machines.
+Just a repo with simple scripts to automate boring stuff
 
 ## License
 
