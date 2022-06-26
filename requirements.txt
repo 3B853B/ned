@@ -1,0 +1,11 @@
+bandit==1.7.4
+flake8==4.0.1
+gitdb==4.0.9
+GitPython==3.1.27
+mccabe==0.6.1
+pbr==5.9.0
+pycodestyle==2.8.0
+pyflakes==2.4.0
+PyYAML==6.0
+smmap==5.0.0
+stevedore==3.5.0
