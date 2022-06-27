@@ -12,7 +12,7 @@ def config(username: str, email: str, signing_key: str, scope: str) -> None:
             'username': ['user.name', username],
             'email': ['user.email', email],
             'signing_key': ['user.signingkey', signing_key],
-            'commmit_sign': ['commit.gpgsign', 'true'],
+            'commit_sign': ['commit.gpgsign', 'true'],
             'tag_sign': ['tag.gpgsign', 'true'],
             'default_branch': ['init.defaultBranch', 'main'],
             'follow_tags': ['push.followTags', 'true']
