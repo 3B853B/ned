@@ -13,6 +13,7 @@ def config(username: str, email: str, signing_key: str, scope: str) -> None:
             'email': ['user.email', email],
             'signing_key': ['user.signingkey', signing_key],
             'gpg_sign': ['commit.gpgsign', 'true'],
+            'default_branch': ['init.defaultBranch', 'main']
         }
 
         for param in configurations.values():
